@@ -1,0 +1,16 @@
+App(
+    appid="quadcount_deluxe",
+    name="QuadCount Deluxe",
+    apptype=FlipperAppType.EXTERNAL,
+    entry_point="counter_app",
+    requires=[
+        "gui",
+    ],
+    fap_category="Tools",
+    fap_icon="icons/counter_icon.png",
+    fap_icon_assets="icons",
+    fap_description="Counter app with 4 counters",
+    fap_author="Iriscot Software",
+    fap_version="1.0",
+    fap_weburl="https://github.com/iriscot/QuadCounter-Deluxe"
+)
